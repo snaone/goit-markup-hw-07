@@ -13,7 +13,7 @@
 	<title>Web Studio</title>
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-	<link rel="stylesheet" href="./css/styles.css" />
+	<link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <body class="page">
@@ -59,8 +59,7 @@
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
 					<button class="close-button" data-modal-close>
-						<svg viewBox="0 0 100 100" width="11" height="11"
-							class="cross-icon">
+						<svg viewBox="0 0 100 100" width="11" height="11" class="cross-icon">
 							<use href="./images/icons.svg#icon-cross">
 							</use>
 						</svg>
@@ -121,49 +120,50 @@
 		<section class="skills section">
 			<div class="container">
 				<h2 class="visually-hiden">Наші переваги</h2>
-				<ul class="skills-list list">
-					<li class="skills-list-item">
-						<div class="thumb">
-							<svg class="skills-icon" viewBox="0 0 100 100" width="70">
+				<ul class="skills__list list">
+					<li class="skills__item">
+						<div class="skills__thumb">
+							<svg class="skills__icon" viewBox="0 0 100 100" width="70">
 								<use href="./images/icons.svg#icon-satellite">
 								</use>
 							</svg>
 						</div>
-						<h3 class="skills-title">увага до деталей</h3>
-						<p class="skills-description">Ідейні міркування, і навіть початок повсякденної роботи з
+						<h3 class="skills__title">увага до деталей</h3>
+						<p class="skills__description">Ідейні міркування, і навіть початок повсякденної роботи з
 							формування позиції.</p>
 					</li>
-					<li class="skills-list-item">
-						<div class="thumb">
-							<svg class="skills-icon" viewBox="0 0 100 100" width="70">
+					<li class="skills__item">
+						<div class="skills__thumb">
+							<svg class="skills__icon" viewBox="0 0 100 100" width="70">
 								<use href="./images/icons.svg#icon-clock">
 								</use>
 							</svg>
 						</div>
-						<h3 class="skills-title">пунктуальність</h3>
-						<p class="skills-description">Завдання організації, особливо рамки і місце навчання кадрів тягне
+						<h3 class="skills__title">пунктуальність</h3>
+						<p class="skills__description">Завдання організації, особливо рамки і місце навчання кадрів
+							тягне
 							у себе.</p>
 					</li>
-					<li class="skills-list-item">
-						<div class="thumb">
-							<svg class="skills-icon" viewBox="0 0 100 100" width="70">
+					<li class="skills__item">
+						<div class="skills__thumb">
+							<svg class="skills__icon" viewBox="0 0 100 100" width="70">
 								<use href="./images/icons.svg#icon-diagram">
 								</use>
 							</svg>
 						</div>
-						<h3 class="skills-title">планування</h3>
-						<p class="skills-description">Так само консультація з широким активом значною мірою зумовлює.
+						<h3 class="skills__title">планування</h3>
+						<p class="skills__description">Так само консультація з широким активом значною мірою зумовлює.
 						</p>
 					</li>
-					<li class="skills-list-item">
-						<div class="thumb">
-							<svg class="skills-icon" viewBox="0 0 100 100" width="70">
+					<li class="skills__item">
+						<div class="skills__thumb">
+							<svg class="skills__icon" viewBox="0 0 100 100" width="70">
 								<use href="./images/icons.svg#icon-astronaut">
 								</use>
 							</svg>
 						</div>
-						<h3 class="skills-title">сучасні технології</h3>
-						<p class="skills-description">Значимість цих проблем настільки очевидна, що реалізація планових
+						<h3 class="skills__title">сучасні технології</h3>
+						<p class="skills__description">Значимість цих проблем настільки очевидна, що реалізація планових
 							завдань.</p>
 					</li>
 				</ul>
@@ -172,20 +172,22 @@
 		<!-- What do we do section -->
 		<section class="activity section">
 			<div class="container">
-				<h2 class="activity-title title">Чим ми займаємося</h2>
-				<ul class="activity-list list">
-					<li class="activity-item">
-						<img src="./images/img-1.jpg" alt="hands typing on a keyboard" width="370" height="294" />
-						<p class="activity-descr">Десктопні додатки</p>
-					</li>
-					<li class="activity-item">
-						<img src="./images/img-2.jpg" alt="phone in the hands of a person working on a laptop"
+				<h2 class="activity__title title">Чим ми займаємося</h2>
+				<ul class="activity__list list">
+					<li class="activity__item">
+						<img class="activity__image" src="./images/img-1.jpg" alt="hands typing on a keyboard"
 							width="370" height="294" />
-						<p class="activity-descr">Мобільні додатки</p>
+						<p class="activity__descriptions">Десктопні додатки</p>
 					</li>
-					<li class="activity-item">
-						<img src="./images/img-3.jpg" alt="graphics tablet in hand" width="370" height="294" />
-						<p class="activity-descr">Дизайнерські рішення</p>
+					<li class="activity__item">
+						<img class="activity__image" src="./images/img-2.jpg"
+							alt="phone in the hands of a person working on a laptop" width="370" height="294" />
+						<p class="activity__descriptions">Мобільні додатки</p>
+					</li>
+					<li class="activity__item">
+						<img class="activity__image" src="./images/img-3.jpg" alt="graphics tablet in hand" width="370"
+							height="294" />
+						<p class="activity__descriptions">Дизайнерські рішення</p>
 					</li>
 				</ul>
 			</div>
@@ -193,17 +195,17 @@
 		<!-- Our team section -->
 		<section class="team section">
 			<div class="container">
-				<h2 class="team-title title">Наша команда</h2>
-				<ul class="team-list list">
-					<li class="team-item">
+				<h2 class="team__title title">Наша команда</h2>
+				<ul class="team__list list">
+					<li class="team__item">
 						<img src="./images/team/ihor-demyanenko.jpg" alt="Ihor Demyanenko photo" width="270"
 							height="260" />
 						<div class="team-block">
-							<h3 class="team-item-title">Ігор Дем'яненко</h3>
-							<p class="team-item-text">Product Designer</p>
-							<ul class="team-item-social list">
+							<h3 class="team-block__title">Ігор Дем'яненко</h3>
+							<p class="team-block__text">Product Designer</p>
+							<ul class="team-block__social list">
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-instagram">
 											</use>
@@ -211,7 +213,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-twitter">
 											</use>
@@ -219,7 +221,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-facebook">
 											</use>
@@ -227,7 +229,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-linkedin">
 											</use>
@@ -237,14 +239,14 @@
 							</ul>
 						</div>
 					</li>
-					<li class="team-item">
+					<li class="team__item">
 						<img src="./images/team/olha-repina.jpg" alt="Olha Repina photo" width="270" height="260" />
 						<div class="team-block">
-							<h3 class="team-item-title">Ольга Рєпіна</h3>
-							<p class="team-item-text">Frontend Developer</p>
-							<ul class="team-item-social list">
+							<h3 class="team-block__title">Ольга Рєпіна</h3>
+							<p class="team-block__text">Frontend Developer</p>
+							<ul class="team-block__social list">
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-instagram">
 											</use>
@@ -252,7 +254,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-twitter">
 											</use>
@@ -260,7 +262,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-facebook">
 											</use>
@@ -268,7 +270,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-linkedin">
 											</use>
@@ -278,15 +280,15 @@
 							</ul>
 						</div>
 					</li>
-					<li class="team-item">
+					<li class="team__item">
 						<img src="./images/team/mykola-tarasov.jpg" alt="Mykola Tarasov photo" width="270"
 							height="260" />
 						<div class="team-block">
-							<h3 class="team-item-title">Микола Тарасов</h3>
-							<p class="team-item-text">Marketing</p>
-							<ul class="team-item-social list">
+							<h3 class="team-block__title">Микола Тарасов</h3>
+							<p class="team-block__text">Marketing</p>
+							<ul class="team-block__social list">
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-instagram">
 											</use>
@@ -294,7 +296,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-twitter">
 											</use>
@@ -302,7 +304,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-facebook">
 											</use>
@@ -310,7 +312,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-linkedin">
 											</use>
@@ -320,15 +322,15 @@
 							</ul>
 						</div>
 					</li>
-					<li class="team-item">
+					<li class="team__item">
 						<img src="./images/team/myhailo-yermakov.jpg" alt="Myhailo Ermakov photo" width="270"
 							height="260" />
 						<div class="team-block">
-							<h3 class="team-item-title">Михайло Єрмаков</h3>
-							<p class="team-item-text">UI Designer</p>
-							<ul class="team-item-social list">
+							<h3 class="team-block__title">Михайло Єрмаков</h3>
+							<p class="team-block__text">UI Designer</p>
+							<ul class="team-block__social list">
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-instagram">
 											</use>
@@ -336,7 +338,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-twitter">
 											</use>
@@ -344,7 +346,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-facebook">
 											</use>
@@ -352,7 +354,7 @@
 									</a>
 								</li>
 								<li class="social-item">
-									<a class="social-item-link" href="">
+									<a class="social-item__link" href="">
 										<svg viewBox="0 0 100 100" width="20" class="team-social-icon">
 											<use href="./images/icons.svg#icon-linkedin">
 											</use>
@@ -488,7 +490,8 @@
 				<form action="" class="footer-form">
 					<label class="footer-label" for="sub-email">Підпишіться на розсилку</label>
 					<div class="subscribe-items">
-						<input class="input-subscribe" type="email" name="sub-email" id="sub-email" placeholder="E-mail">
+						<input class="input-subscribe" type="email" name="sub-email" id="sub-email"
+							placeholder="E-mail">
 						<button type="submit" class="button-subscribe" id="email">Підписатися<svg viewBox="0 0 100 100"
 								width="24">
 								<use href="./images/icons.svg#icon-send">
